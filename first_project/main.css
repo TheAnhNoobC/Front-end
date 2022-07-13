@@ -1,0 +1,221 @@
+html, body{
+    margin:0;
+    padding: 0;
+}
+body{
+    background:rgb(245, 245, 245);
+}
+#ad{
+    display: block;
+    height: 112px;
+    width: 1200px;
+    background-image: url("img/banner.jpg");
+    background-size: 100%;
+    margin: 0 auto;
+}
+#lg_back{
+    display: block;
+    height: 112px;
+    width: 155px;
+    background-color: #d9dfe7;
+    background-size: 100%;
+}
+#lg{
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}   
+h{
+    color: rgb(226, 131, 68);
+    font-size: 100px;
+    padding-left:30px;
+    padding-bottom: 20px; 
+}
+#menu{
+    height: 40px;
+    width:1200px;
+    margin-top: 15px;
+    margin-left: 30px;
+    background-color: rgb(245, 245, 245)
+}
+nav #menu ul{
+    margin:0;
+    list-style: none;
+ }
+nav #menu ul li {
+    float: left;
+    line-height: 35px;
+    padding: 0 15px;
+}
+nav #menu ul li a:hover{
+    font-size: 20px;
+    background-color: rgb(251, 255, 0);
+    color: red;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+ a{
+    font-size: 15px;
+    font-family: monospace;
+    color: black;
+}
+#box{
+    display: block;
+    height:100px;
+    width:1200px;
+    background: url(/img/azklo.png);
+    background-size: 100%;
+    margin:0 auto;
+    border: 2px solid 
+
+}
+#e1{
+    color: rgb(0, 4, 252);
+    font-size: 35px;
+}
+#b1{
+    display: block;
+    height: 50px;
+    width:150px;
+    position: relative;
+    top: 13px;
+    left:20px;
+}
+#box nav ul li {
+    list-style: none;
+    float: left;
+    margin:0;
+}
+#red{
+    color:red;
+    font-size:17px;
+}
+#red1{
+    font-size: 12px;
+    position: relative;
+    bottom: 15px;
+}
+#search_box{
+    display: block;
+    height: 40px;
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    top: 25px;
+}
+.search_box-input{
+    width: 93%;
+    height: 100%;
+    border:none;
+    outline:none;
+    font-size:20px;
+    color: black;
+    padding: 0 16px;
+    border-radius: 20px;
+}
+#edit{
+    width: 36px;
+    height: 36px;
+    background-color: #ffffff;
+    -moz-border-radious:50%;
+    -webkit-border-radious:50%;
+    border-radius: 50%;;
+    position: relative;
+    bottom: 38px;
+    left:410px;
+}
+#edit:hover{
+    background: #e42012;
+}
+#box-title{
+    display:block;
+    height: 100px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url(/img/kkk.jpg);
+    background-size: 100%;
+    border: 3px dashed black;
+}
+#tl {
+    font-size:50px;
+    text-align: center;
+    line-height:20px;
+}
+.box-book{
+    display: block;
+    height: 500px;
+    width: 300px;
+    background-image: url(./img/download.jpg);
+    border: 4px dashed yellow;
+}
+nav ul li .box-book {
+    float:left;
+    margin-left: 90px;
+}
+nav ul {
+    list-style: none;
+}   
+.canchinh{
+    position: relative;
+    top: 15px;
+    left:25px;
+}
+.text{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.text-red{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    color:red;
+}
+#edittt{
+    position: relative;
+    top: 23px;
+    left:15px;
+}
+#box-space{
+    display: block;
+    height: 520px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+#box-author{
+    display: block;
+    height: 70px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(226, 176, 82);
+}
+#tlc{
+    font-size:50px;
+    text-align: center;
+}
+.end{
+    display: block;
+    height:600px;
+    width:1200px;
+    margin: 0 auto;
+    background-color: black;
+    position: relative;
+}
+.end-child{
+    display: block;
+    height:600px;
+    width:600px;
+    position: absolute;
+    top:0;
+    left:600px;
+    background-color: #4e6168;
+}
+.text-end{
+    font-size:35px;
+    font-family: monospace;
+}
+
